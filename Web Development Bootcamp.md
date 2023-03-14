@@ -286,32 +286,32 @@ The most used input types are:
 **Radio Button**
 
 >`<form>`
-  `<input type="radio" id="html" name="fav_language" value="HTML">`
-  `<label for="html">HTML</label><br>`
-  `<input type="radio" id="css" name="fav_language" value="CSS">`
-  `<label for="css">CSS</label><br>`
-  `<input type="radio" id="javascript" name="fav_language" value="JavaScript">`
-  `<label for="javascript">JavaScript</label>`
-`</form>`
+>  `<input type="radio" id="html" name="fav_language" value="HTML">`
+>  `<label for="html">HTML</label><br>`
+>  `<input type="radio" id="css" name="fav_language" value="CSS">`
+>  `<label for="css">CSS</label><br>`
+>  `<input type="radio" id="javascript" name="fav_language" value="JavaScript">`
+>  `<label for="javascript">JavaScript</label>`
+>`</form>`
 
 
 **Checkbox**
 
 >`<form>`
-  `<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">`
-  `<label for="vehicle1"> I have a bike</label><br>`
-  `<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">`
-  `<label for="vehicle2"> I have a car</label><br>`
-  `<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">`
-  `<label for="vehicle3"> I have a boat</label>`
-`</form>`
+>  `<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">`
+>  `<label for="vehicle1"> I have a bike</label><br>`
+>  `<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">`
+>  `<label for="vehicle2"> I have a car</label><br>`
+>  `<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">`
+>  `<label for="vehicle3"> I have a boat</label>`
+>`</form>`
 
 **Number**
 
 >`<form>`
-  `<label for="quantity">Quantity (between 1 and 5):</label>`
-  `<input type="number" id="quantity" name="quantity" min="1" max="5">`
-`</form>`
+>  `<label for="quantity">Quantity (between 1 and 5):</label>`
+>  `<input type="number" id="quantity" name="quantity" min="1" max="5">`
+>`</form>`
 
 **Button**
 
@@ -350,7 +350,7 @@ The box model consists of four main components: content, padding, border, and ma
 
 **Margin**: This is the space between the border and other elements on the page. It can be thought of as a buffer between the element and other elements, and it can be adjusted to create space between elements or push elements away from each other.
 
-![Box Model](Box Model.png)
+![Box Model](box.png)
 
 
 
