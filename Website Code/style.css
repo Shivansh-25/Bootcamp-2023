@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Rota';
+    src: url('Assets/Fonts/Rota-Medium.otf');
+}
+
+
+
+body{
+    background-color: black;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.nav img{
+    width: 187px;
+    height: 127px;
+}
+.gdsc{
+    color:white;
+    font-family: 'Rota';
+    font-weight: 600;
+    font-size: 50px;
+}
+.form-space{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 30px;
+    color:white;
+    width: 614px;
+    height: 242px;
+}
+.form{
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.form label
+{
+    font-family: 'Rota';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.form input
+{
+    border-color: transparent;
+    border-radius: 5px;
+}
+.vertical-line
+{
+    border-left: 2px solid white;
+    height: 241px;
+    left: 50%;
+    margin-left: 50px;
+}
+.form-submission
+{
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: 'Rota';
+    font-style: normal;
+    line-height: 25px;
+    font-size: 18px;
+}
+.submission
+{
+    font-family: 'Rota';
+    margin-top: 60px;
+    margin-left: 55%;
+    width: 225px;
+    height: 60px;
+    background-color:#5DBEA3;
+    color:white;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+}
+.made-by
+{
+    /* margin-top: auto; */
+    font-family: 'Rota';
+    color:white;
+}
+
+.footer
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 7%;
+    justify-content: center;
+    align-items: center;
+}
+.form .rad
+{
+    margin-right: 0px;
+}
